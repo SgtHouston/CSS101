@@ -1,8 +1,18 @@
+.header {
+    background: rgba(255, 100, 255, .5);
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 55px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
 .container {
     padding: 100px 10px;
-    width: 800px
-    position: relative;
+    width: 100%
 }
+
 .container img {
     width: 100%;
 }
@@ -12,14 +22,8 @@
     background-color: rgba(255, 100, 255, .5);
     font-size: 32px;
     position: relative;
+    bottom: 1600px;
+    left: 50%;
+    right: 50%;
 }
 
-.header {
-    background: rgba(255, 100, 55, .6);
-    padding: 2px 10px;
-    text-align: center;
-    font-size: 25px;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
