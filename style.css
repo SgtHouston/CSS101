@@ -1,0 +1,25 @@
+.container {
+    padding: 100px 10px;
+    width: 800px
+    position: relative;
+}
+.container img {
+    width: 100%;
+}
+
+.text {
+    padding: 5px;
+    background-color: rgba(255, 100, 255, .5);
+    font-size: 32px;
+    position: relative;
+}
+
+.header {
+    background: rgba(255, 100, 55, .6);
+    padding: 2px 10px;
+    text-align: center;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
