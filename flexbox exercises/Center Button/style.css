@@ -1,0 +1,17 @@
+
+.container {
+    display: flex;
+    width: 498px;
+    height: 498px;
+    background-color: rgb(31, 7, 248);
+    border: 2px black;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border: 5px black;
+    background-color: rgb(76, 76, 76);
+}
+
+
